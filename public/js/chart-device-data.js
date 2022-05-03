@@ -69,8 +69,8 @@ $(document).ready(() => {
       },
       {
         fill: false,
-        label: 'Humidity',
-        yAxisID: 'Humidity',
+        label: 'Irradiance',
+        yAxisID: 'Irradiance',
         borderColor: 'rgba(24, 120, 240, 1)',
         pointBoarderColor: 'rgba(24, 120, 240, 1)',
         backgroundColor: 'rgba(24, 120, 240, 0.4)',
@@ -93,10 +93,10 @@ $(document).ready(() => {
         position: 'left',
       },
       {
-        id: 'Humidity',
+        id: 'Irradiance',
         type: 'linear',
         scaleLabel: {
-          labelString: 'Humidity (%)',
+          labelString: 'Irradiance (w/m2)',
           display: true,
         },
         position: 'right',
